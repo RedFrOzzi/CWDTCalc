@@ -1,5 +1,3 @@
-import { InputValues } from "../utilities/DamageUtility";
-
 interface OverdamageProps {
   damage: number;
 }
