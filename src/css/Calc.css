@@ -1,0 +1,89 @@
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 650px) {
+  .box-container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.calc-box {
+  width: 600px;
+  color: rgb(195, 195, 195);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.calc {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+label {
+  display: inline-block;
+  width: 45%;
+  margin-left: 5%;
+}
+
+input {
+  display: inline-block;
+  width: 15%;
+  margin-left: 5%;
+}
+
+#ringOne {
+  margin-left: 5%;
+}
+
+#cwdtQualSup {
+  margin-left: 5%;
+}
+
+h1 {
+  text-align: center;
+  margin: 5px 0 5px 0;
+}
+
+h3 {
+  text-align: center;
+  margin: 5px 0 5px 0;
+}
+
+input[type="radio" i] {
+  width: 1em;
+  margin: 3px 3px 0px 5px;
+  padding: initial;
+  border: initial;
+}
+
+span {
+  margin-left: 5%;
+}
+
+.left-side {
+  display: inline-block;
+  width: 45%;
+}
+
+.loop-status {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-left: 0px;
+  font-size: 2rem;
+}
