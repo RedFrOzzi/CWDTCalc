@@ -22,9 +22,21 @@
 }
 
 .calc-box {
-  width: 600px;
+  max-width: 600px;
   color: rgb(195, 195, 195);
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 600px) {
+  .calc-box {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) {
+  .calc-box {
+    min-width: 600px;
+  }
 }
 
 .calc {

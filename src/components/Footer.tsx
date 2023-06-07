@@ -1,14 +1,8 @@
+import "../css/Footer.css";
+
 const Footer: React.FC = () => {
   return (
-    <div
-      style={{
-        width: "600px",
-        color: "rgb(195, 195, 195)",
-        backgroundColor: "rgba(0, 0, 0, 0.6)",
-        textAlign: "left",
-        marginTop: "5px",
-      }}
-    >
+    <div className="footer">
       <span>
         Original QWDT calculator{" "}
         <a
